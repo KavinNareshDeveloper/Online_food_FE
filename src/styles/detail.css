@@ -1,0 +1,36 @@
+.detail{
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.slider{
+  margin: 10%;
+}
+.line{
+    margin-left: 0px;
+    font-size: 50px;
+    color:brown;
+}
+.line:hover{
+    transform: scale(0.9);
+    color: brown;
+}
+.bttn{
+    border-radius: 4px;
+    padding: 1%;
+    
+}
+
+.det{
+    background-color: antiquewhite;
+    color: #192f60;
+    font-size:50px;
+    padding-right: 50%;
+    padding-top:30px;
+}
+
+.rounded-button {
+    border-radius: 100%; 
+    padding: 15px 25px;  
+}

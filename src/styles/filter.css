@@ -1,0 +1,257 @@
+.head{
+    height: 70px;
+    background-color: red;
+    margin: auto;
+    text-align: right;
+    position: relative;
+}
+.container{
+    height: auto;
+}
+
+.box{
+    border: 2px solid white;
+    height: 50px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: red;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    position: absolute;
+    top: 15px;
+    padding-top: 2px;
+}
+button{
+    margin-top: 25px;
+}
+
+.text{
+    font-size: 45px;
+    font-weight: bold;
+    color:#192f60;
+    padding:10px;
+    padding-left: 50px;
+}
+
+select {
+    width: 100%;
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.back{
+    background-color: whitesmoke;
+}
+
+.filter{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    max-width: 450px;
+    background-color: rgb(236, 15, 107);
+    box-shadow: 2px 2px 2px 2px soild rgb(70, 69, 69);
+}
+.cussins{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px soild rgb(73, 72, 72);
+    max-width: 450px;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(236, 15, 107);
+}
+.gt{
+    position: relative;
+    left: 200px;
+    bottom: 590px;
+  
+    width: 50%;
+    height: auto;
+
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.con{
+    border: 2px solid black;
+    height: 250px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.sub{
+    position: absolute;
+    left: 200px;
+}
+
+.con:hover{
+    transform: scale(1.1);
+}
+
+
+@media all and (min-width: 500px) and (max-width: 998px) {
+    .bx{
+        position: relative;
+    }
+    .con{
+        border: 2px solid black;
+        height: 260px;
+        width: 450px;
+    }
+    .gt{
+        position: absolute;
+        top: 100px;
+        left: 10px;
+    }
+    .foods{
+        text-wrap:nowrap;
+    }
+
+    
+}
+@media all and (min-width: 300px) and (max-width: 500px) {
+    .bx{
+        position: relative;
+    }
+    .con{
+        margin-left: 0;
+        border: 2px solid black;
+        height: 350px;
+        width: 350px;
+    }
+    .gt{
+        position: absolute;
+        top: 100px;
+        left: 10px;
+    }
+    .filter{
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        max-width: 300px;
+        background-color: aliceblue;
+        box-shadow: 2px 2px 2px 2px soild rgb(70, 69, 69);
+    }
+    .filter>h4,.filter>select{
+       
+        text-align: center;
+    }
+    .filter>select{
+        margin-left: 40px;
+    }
+    .foods{
+        text-wrap:wrap;
+        position: relative;
+        right: 60%;
+        top: 30px;
+    }
+    .button{
+        padding-left: 0;
+    }
+    .sub>h2,h4,h5{
+        position: relative;
+        right: 8%;
+    }
+    .sub{
+     position: absolute;
+     left: 180px; 
+     text-wrap: wrap;
+     width: 100px;
+    }
+
+
+/*new styles*/
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-title {
+    text-align: center;
+    color: green;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-size: 16px;
+    color: lightgreen;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.form-input:focus {
+    border-color: green;
+    outline: none;
+    background-color: #e9f7e9;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-submit, .btn-close {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    .form-title {
+        font-size: 22px;
+    }
+
+    .form-input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn-submit, .btn-close {
+        padding: 10px;
+        font-size: 14px;
+    }
+}   
+}
