@@ -166,7 +166,7 @@ const Header = () => {
                     </button>
                     
                     <div className="google-login-container">
-                        <GoogleOAuthProvider clientId="209684594392-1o48lp72oach2ec8m2o0gl31kjjo7l5q.apps.googleusercontent.com">
+                        <GoogleOAuthProvider clientId="209684594392-f0cktup9hh1i85a03jfjmp7u18g7bnti.apps.googleusercontent.com">
                             <GoogleLogin onSuccess={responseGoogle} onError={responseGoogle} redirectUri="http://localhost:3000"/>
                         </GoogleOAuthProvider>
                     </div>
